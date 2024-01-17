@@ -52,21 +52,28 @@ Ici, en orange, une décoration précédant un titre.
 
 
 ### GraphicZone:Head
-La classe `GraphicZone:Head` permet de signaler la présence de **légendes associées à leurs illustrations**. La classe `GraphicZone:Head` figure au sein de la classe `GraphicZone`.  
+La classe `GraphicZone:Head` permet d'étiqueter la légende d'une illustration lorsque celle-ci correspond à une **numérotation** uniquement. Elle figure, autant que possible, à l'intérieur de la `GraphicZone` correspondante.  
 
 Fichier exemple : bourgey_12148-bpt6k97782634_f29.jpg
 ![Fichier exemple GraphicZone:Head](/images_annotationguide/bourgey_12148-bpt6k97782634_f29.jpg)  
 
-Cependant, des exceptions telles qu'**une légende placée trop loin de son illustration** existent, et il n'est donc pas toujours possible d'imbriquer `GraphicZone:Head` dans `GraphicZone`.  
+
+### GraphicZone:Legend
+La classe `GraphicZone:Legend` correspond à la **légende associée à une illustration**. Tout comme la classe `GraphicZone:Head`, la classe `GraphicZone:Legend` se place au sein de la `GraphicZone`. Cependant, des exceptions telles qu'**une légende placée trop loin de son illustration** existent, et il n'est donc pas toujours possible d'imbriquer `GraphicZone:Legend` dans `GraphicZone`. Lorsque la légende consiste uniquement en une numérotation, on utilisera la classe `GraphicZone:Head`.   
+
+Fichier exemple : Lair-Dubreuil_CV05028_19200202_f11.jpg
+![Fichier exemple GraphicZone:Legend](/images_annotationguide/Lair-Dubreuil_CV05028_19200202_f11.jpg)  
+
+Ici, la légende encadrée en marron contient, en plus du numéro de la notice correpondante, du texte : "Portrait de Mlle Zucchi, de l'Opéra".  
 
 
-<!-- ### MainZone:CatalogueDesc
-La classe `MainZone:CatalogueDesc` correspond à une zone de texte habituellement située juste après un niveau de titre et précédant les notices. Elle donne des **informations sur un ensemble de notices**, régies elles-mêmes par un niveau de titre. On y trouves **informations de chronologie, de bibliographie, des commentaires sur la vente**, etc.  
+### MainZone:P@CatalogueDesc
+La classe `MainZone:P@CatalogueDesc` correspond à une zone de texte habituellement située juste après un niveau de titre et précédant les notices. Elle donne des **informations sur un ensemble de notices**, régies elles-mêmes par un niveau de titre. On y trouve **informations de chronologie, de bibliographie, des commentaires sur la vente**, etc.  
 
 Fichier exemple : rollin_12148-bpt6k9780581w_f122.jpg
 ![Fichier exemple MainZone:CatalogueDesc](/images_annotationguide/rollin_12148-bpt6k9780581w_f122.jpg)  
 
-Ici, les `MainZone:CatalogueDesc` figurent en rouge, tandis que les niveaux de titres sont en orange. Dans cet exemple, elles donnent des informations temporelles.  -->
+Ici, les `MainZone:P@CatalogueDesc` figurent en rouge, tandis que les niveaux de titres sont en orange. Dans cet exemple, elles donnent des informations temporelles.  
 
 
 ### MainZone:Entry et MainZone:Entry#Continued
