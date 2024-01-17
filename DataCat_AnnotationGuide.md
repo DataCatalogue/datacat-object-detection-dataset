@@ -67,15 +67,6 @@ Fichier exemple : Lair-Dubreuil_CV05028_19200202_f11.jpg
 Ici, la légende encadrée en marron contient, en plus du numéro de la notice correpondante, du texte : "Portrait de Mlle Zucchi, de l'Opéra".  
 
 
-### MainZone:P@CatalogueDesc
-La classe `MainZone:P@CatalogueDesc` correspond à une zone de texte habituellement située juste après un niveau de titre et précédant les notices. Elle donne des **informations sur un ensemble de notices**, régies elles-mêmes par un niveau de titre. On y trouve **informations de chronologie, de bibliographie, des commentaires sur la vente**, etc.  
-
-Fichier exemple : rollin_12148-bpt6k9780581w_f122.jpg
-![Fichier exemple MainZone:CatalogueDesc](/images_annotationguide/rollin_12148-bpt6k9780581w_f122.jpg)  
-
-Ici, les `MainZone:P@CatalogueDesc` figurent en rouge, tandis que les niveaux de titres sont en orange. Dans cet exemple, elles donnent des informations temporelles.  
-
-
 ### MainZone:Entry et MainZone:Entry#Continued
 La classe `MainZone:Entry` correspond à une **notice de catalogue**. Lorsque la notice continue sur la page suivante, la seconde partie est signalée avec la classe `MainZone:Entry#Continued`.  
 
@@ -117,6 +108,15 @@ Fichier exemple : bienaime-feuardent_12148-bpt6k9778158g_f14.jpg
 ![Fichier exemple MainZone:P](/images_annotationguide/bienaime-feuardent_12148-bpt6k9778158g_f14.jpg)  
 
 Ici, en bleu, figurent les paragraphes correspondant aux conditions de la vente.  
+
+
+### MainZone:P@CatalogueDesc
+La classe `MainZone:P@CatalogueDesc` correspond à une zone de texte habituellement située juste après un niveau de titre et précédant les notices. Elle donne des **informations sur un ensemble de notices**, régies elles-mêmes par un niveau de titre. On y trouve **informations de chronologie, de bibliographie, des commentaires sur la vente**, etc.  
+
+Fichier exemple : rollin_12148-bpt6k9780581w_f122.jpg
+![Fichier exemple MainZone:CatalogueDesc](/images_annotationguide/rollin_12148-bpt6k9780581w_f122.jpg)  
+
+Ici, les `MainZone:P@CatalogueDesc` figurent en rouge, tandis que les niveaux de titres sont en orange. Dans cet exemple, elles donnent des informations temporelles.  
 
 
 ### MarginTextZone:ManuscriptAddendum
