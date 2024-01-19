@@ -131,10 +131,10 @@ Ici, les annotations manuscrites apparaissent en rose vif. Il arrive que les seg
 ### MarginTextZone:Notes et MarginTextZone:Notes#Continued
 La classe `MarginTextZone:Notes` permet d'annoter les notes de bas de page. Lorsque la note continue sur la page suivante, elle sera signalée par l'étiquette `MarginTextZone:Notes#Continued`. Ces classes ont été reprises de la campagne d'annotation du projet COLaF (Inria) pour le jeu de données [LADaS](https://github.com/DEFI-COLaF/LADaS).  
 
-Fichier exemple : bienaime-feuardent_12148-bpt6k9777364k_f11.jpg
-![Fichier exemple MarginTextZone:Notes](/images_annotationguide/bienaime-feuardent_12148-bpt6k9777364k_f11.jpg)  
+Fichier exemple : dubois_12148-bpt6k9629016g_f75.jpg
+![Fichier exemple MarginTextZone:Notes](/images_annotationguide/dubois_12148-bpt6k9629016g_f75.jpg)  
 
-Ici, figurent en rouge une note de bas de page et son appel de note.  
+Ici, en bleu cyan, les notes de bas de page. Pour l'instant, les appels de notes font partie de la classe dans laquelle ils se trouvent, ici, des `MainZone:Entry`.  
 
 
 ### NumberingZone
