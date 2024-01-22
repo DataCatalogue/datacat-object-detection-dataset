@@ -34,6 +34,17 @@ Le schéma d'annotation utilisé dans le cadre du projet DataCatalogue se base e
 
 
 
+### DigitizationArtefactZone
+La classe `DigitizationArtefactZone` contient toutes les mentions résultant du processus de numérisation.  
+
+Fichier exemple : bourgey_12148-bpt6k9778375p_f1.jpg  
+
+![Fichier exemple DigitizationArtefactZone](/images_annotationguide/bourgey_12148-bpt6k9778375p_f1.jpg)  
+
+Ici, en rose, la mention de Gallica (BnF).  
+
+
+
 ### GraphicZone
 Une `GraphicZone` contient une illustration, généralement associée à une notice. Si l'image est accompagnée d'une **légende**, celle-ci est incluse dans la `GraphicZone` et étiquetée avec la classe `GraphicZone:Head`.  
 
