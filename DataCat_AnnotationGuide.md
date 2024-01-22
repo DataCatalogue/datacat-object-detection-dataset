@@ -192,15 +192,18 @@ Fichier exemple : bienaime-feuardent_12148-bpt6k9777643f_f60.jpg
 Ici, en rouge, en haut de la page et centré, un exemple d'un segment de texte correspondant à un titre courant étiqueté `RunningTitleZone`.  
 
 
-### StampZone
-La classe `StampZone` signale un **tampon**, notamment celui du service de conservation (bibliothèque ou archives par exemple). Elle est définie par [SegmOnto](https://segmonto.github.io/gd/gdZ/StampZone/) comme :   
+### StampZone et StampZone:Sticker
+La classe `StampZone` signale un **tampon**, notamment celui du service de conservation (bibliothèque ou archives par exemple), et `StampZone:Sticker` l'utilisation d'un sticker dans le même but. Elle est définie par [SegmOnto](https://segmonto.github.io/gd/gdZ/StampZone/) comme :   
 
 >> **StampZone:** is a zone containing a stamp, be it a library stamp or a mark from a postal service.  
 
 Fichier exemple : bienaime-feuardent_12148-bpt6k9779231g_f58.jpg
 ![Fichier exemple StampZone](/images_annotationguide/bienaime-feuardent_12148-bpt6k9779231g_f58.jpg)  
-
 Ici, en vert, le tampon de la Bibliothèque nationale.  
+
+Fichier exemple : desvouges_CV09509_19241208_f1.jpg
+![Fichier exemple StampZone:Sticker](/images_annotationguide/desvouges_CV09509_19241208_f1.jpg)
+En bordeaux, le sticker de la Bibliothèque d'art et d'archéologie Jacques Doucet.  
 
 
 ### TableZone
