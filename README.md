@@ -6,8 +6,8 @@ As part of our pipeline, we are experimenting with **Document Layout Segmentatio
 Useful links:
 * Our dataset and model available on [Roboflow](https://app.roboflow.com/datacatalogue/macro-segmentation/overview)
 * More on [YOLOv8](https://github.com/ultralytics/ultralytics)
-* Gabay, S., Pinche, A., Christensen, K., Camps, J.-B., & Carboni, N. (2023). _A Controlled Vocabulary to Describe the Layout of Pages_ (Version 0.9). Genève, Lyon, Paris. [https://segmonto.github.io/](https://segmonto.github.io/). 
+* Simon Gabay, Ariane Pinche, Kelly Christensen, Jean-Baptiste Camps, & Nicola Carboni. (2023). _SegmOnto: A Controlled Vocabulary to Describe the Layout of Pages_ (Version 0.9). Genève, Lyon, Paris. [https://segmonto.github.io/](https://segmonto.github.io/). 
 
 
 #### 📝 Bibliography
-* Clérice, T., Janès, J., Scheithauer, H., Bénière, S., Romary, L., & Sagot, B. (2024, August 6-9). _Layout Analysis Dataset with SegmOnto_. DH 2024 - Annual Conference of the Alliance of Digital Humanities Organizations, Washington, D.C., United States. [https://inria.hal.science/hal-04513725](https://inria.hal.science/hal-04513725). 
+* Thibault Clérice, Juliette Janès, Hugo Scheithauer, Sarah Bénière, Laurent Romary, & Benoît Sagot. (2024, August 6-9). _Layout Analysis Dataset with SegmOnto_. DH 2024 - Annual Conference of the Alliance of Digital Humanities Organizations, Washington, D.C., United States. [https://inria.hal.science/hal-04513725](https://inria.hal.science/hal-04513725). 
